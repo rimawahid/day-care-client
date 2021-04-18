@@ -6,8 +6,11 @@ client site code: https://github.com/Porgramming-Hero-web-course/complete-websit
 
 server site code: https://github.com/Porgramming-Hero-web-course/complete-website-server-rimawahid
 
-used: 
+Frond used: 
     React js
     React Router
-    React hook f
+    React hook form
+    React bootstrap
+    Firebase 
+
 
