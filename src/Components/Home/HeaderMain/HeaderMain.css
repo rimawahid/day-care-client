@@ -1,0 +1,16 @@
+.custom-btn{
+    /* background: linear-gradient(to right,#ABCD52,#59DEE7); */
+    color: #fff;
+    padding: 7px 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: #a7c850
+}
+/* .custom-btn:hover{
+    background: linear-gradient(to left,#17D2B8,#59DEE7);
+    color: #fff;
+} */
+.header-text{
+    font-family: 'Chela One', cursive;
+    font-size:60px
+}
