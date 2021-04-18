@@ -24,7 +24,7 @@ const Testimonials = () => {
            <div className="container">
                <div className="section-header text-center">
                    <h5 style={{color: '#A7C850'}} className=" text-uppercase">Testimonial</h5>
-                   <h1>WHAT THE PARENTS SAY</h1>
+                   <h2>WHAT THE PARENTS SAY</h2>
                </div>
                <div className="card-deck row  mt-5 pt-5">
                     {

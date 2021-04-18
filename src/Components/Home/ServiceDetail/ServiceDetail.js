@@ -21,7 +21,7 @@ const ServiceDetail = ({ _id, name, description, price, imageURL }) => {
                     
                     <div className="card-footer d-flex justify-content-between align-items-center"> 
                         <p className="p-color">{price}$</p>
-                        <button className="custom-btn" onClick={() => handleServiceClick(_id)}>Buy Now</button>
+                        <button className="btn service-btn" onClick={() => handleServiceClick(_id)}>BUY NOW</button>
                     </div>
                 </div>
             </div>

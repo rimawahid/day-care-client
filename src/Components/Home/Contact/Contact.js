@@ -5,7 +5,7 @@ const Contact = () => {
         <section className="contact my-5 py-5">
            <div className="container">
                <div className="section-header text-center  mb-5">
-                    <h1 style={{color: '#A7C850'}}>HOW TO ENROLL YOUR CHILD?</h1>
+                    <h2 style={{color: '#A7C850'}}>HOW TO ENROLL YOUR CHILD?</h2>
                     <h5>CALL +1 000 123 1234 OR FILL IN THE FORM BELOW</h5>
                </div>
                <div className="col-md-9 mx-auto">
@@ -40,7 +40,7 @@ const Contact = () => {
                        </div>
                        <br/>
                        <div className="form-group text-center">
-                           <button type="button" className="btn btn-primary"> Submit </button>
+                           <button type="button" className="btn contact-btn"> SUBMIT </button>
                        </div>
                    </form>
                </div>

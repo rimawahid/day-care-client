@@ -6,42 +6,36 @@ import { faFacebookF, faInstagram, faGooglePlusG } from '@fortawesome/free-brand
 
 const Footer = () => {
     const noNamed = [
-        {name: "Emergency Dental Care" , link: "/emergency"},
-        {name: "Check Up" , link: "/checkup"},
-        {name: "Treatment of Personal Diseases" , link: "/personal-treatment"},
-        {name: "Tooth Extraction" , link: "/tooth-extract"},
-        {name: "Check Up" , link: "/checkup"},
+        {name: "Emergency Contact" , link: "/emergency"},
+        
     ]
     const ourAddress = [
-        {name: "New York - 101010 Hudson" , link: "//google.com/map"},
+        {name: "Narayanganj, Dhaka:1420 | Bangladesh" , link: "//google.com/map"},
         {name: "Yards" , link: "//google.com/map"},
        
     ]
-    const oralHealth = [
-        {name: "Emergency Dental Care" , link: "/emergency"},
-        {name: "Check Up" , link: "/checkup"},
-        {name: "Treatment of Personal Diseases" , link: "/personal-treatment"},
-        {name: "Tooth Extraction" , link: "/tooth-extract"},
-        {name: "Check Up" , link: "/checkup"},
-        {name: "Check Up" , link: "/checkup"},
-        {name: "Check Up" , link: "/checkup"}
+    const teachers = [
+        {name: "LILY CARTER" , link: "/lily"},
+        {name: "JENNIFER LAWRENCE" , link: "/jennifer"},
+        {name: "REGINA SPEKTOR" , link: "/regina"},
+        {name: "RICHARD HILL" , link: "/richard"},
+        
     ]
     const services = [
-        {name: "Emergency Dental Care" , link: "/emergency"},
-        {name: "Check Up" , link: "/checkup"},
-        {name: "Treatment of Personal Diseases" , link: "/personal-treatment"},
-        {name: "Tooth Extraction" , link: "/tooth-extract"},
-        {name: "Check Up" , link: "/checkup"},
-        {name: "Check Up" , link: "/checkup"},
-        {name: "Check Up" , link: "/checkup"}
+        {name: "Mathematics" , link: "/mathematics"},
+        {name: "Art" , link: "/art"},
+        {name: "Active Learning" , link: "/active-learning"},
+        {name: "Swimming & Sport" , link: "/swimming-sport"},
+        {name: "Geography" , link: "/geography"},
+        
     ]
     return (
         <footer className="footer-area clear-both">
             <div className="container pt-5">
                 <div className="row py-5">
-                    <FooterCol key={1} menuTitle={"."} menuItems={noNamed}/>
+                    <FooterCol key={1} menuTitle={"Report a problem"} menuItems={noNamed}/>
                     <FooterCol key={2} menuTitle="Services" menuItems={services}/>
-                    <FooterCol key={3} menuTitle="Oral Health" menuItems={oralHealth}/>
+                    <FooterCol key={3} menuTitle="Contact Our Teacher" menuItems={teachers}/>
                     <FooterCol key={4} menuTitle="Our Address" menuItems={ourAddress}> 
                         <ul className="social-media list-inline">
                             <li className="list-inline-item"><a href="//facebook.com"><FontAwesomeIcon className="icon active-icon" icon={faFacebookF} /></a></li>

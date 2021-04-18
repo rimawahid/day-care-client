@@ -25,3 +25,12 @@
 .service-img{
     width: 100%;
 }
+.service-btn{
+    background: #fff;
+    color: black;
+    font-weight: 600;
+}
+.service-btn:hover{
+    background: #FB6B47;
+    color: #fff;
+}

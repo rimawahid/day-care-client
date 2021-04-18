@@ -2,3 +2,12 @@
     background-image: url(../../../images/featuresBg.jpg);
     background-size: cover;
 }
+.contact-btn{
+    background: #A7C850;
+    font-weight: 600;
+    color: #fff
+}
+.contact-btn:hover{
+    background: #FB6B47;
+    color: #fff;
+}
